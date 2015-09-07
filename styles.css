@@ -1,0 +1,72 @@
+body
+{ 	font-family: "Arial";
+	font-size: 15px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+background: rgb(59,103,158); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(59,103,158,1)), color-stop(50%,rgba(43,136,217,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.aboutme, h1, h2
+{
+	text-align: center;
+}
+.aboutme, li
+{
+	color: yellow;
+}
+
+.aboutme, .kentinfo
+{
+	margin-left: 250px;
+	height: 220px;
+}
+.aboutme, .kentcapt
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 300px;
+}
+.aboutme, .kentimage
+{	
+	display: inline-block;
+	vertical-align: middle;
+	border: 3px yellow;
+	background-image: url('kent.jpg');
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	margin-left: 15px;
+}
+
+.aboutme, .standpara
+{
+	font-style: italic;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.aboutme, .classes
+{
+	display: table;
+	border: 2px solid yellow;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+.aboutme, .classes .course .name
+{
+	margin-left: 5px;
+	width: 85px;
+	border-right: 2px solid yellow;
+	display: inline-block;
+}
+.aboutme, .classes .course .desc
+{
+	margin-left: 5px;
+	display: inline-block;
+}
